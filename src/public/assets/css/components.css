@@ -1,0 +1,38 @@
+/* INPUT COMPONENT */
+
+.input {
+  padding: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-bottom: 1px solid red;
+  font-size: 1rem;
+ 
+}
+
+.input::placeholder {
+  color: #b3b9bd;
+}
+
+.input:focus {
+  outline: initial;
+}
+
+/* SUBMIT BUTTON COMPONENT */
+
+.submit-button {
+  width: 100%;
+  height: 2.5rem;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #db1725;
+}
